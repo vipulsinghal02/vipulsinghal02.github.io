@@ -24,7 +24,7 @@ author:
   avatar           : "VipulSinghal_resized2.jpg"
   name             : "Vipul Singhal"
   pronouns         : # example: "she/her"  
-  bio              : "I develop methods for the analysis and understanding of biological data. These can range from methods for the analysis of spatial omics data to methods for synthetic biology. In my free time, I enjoy various types of activities in the mountains."
+  bio              : "I develop methods for the analysis and understanding of biological data. These can range from algorithms for spatial omics to system ID methods for synthetic biology. I also enjoy math, especially learning topology, lie algebras and differential geometry (and their interplay). In my free time, I enjoy snowboarding and climbing in the Rockies and the Sierras."
   location         : "Singapore"
   employer         : "Genome Institute of Singapore"
   uri              : # URL
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
