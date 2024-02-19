@@ -1,5 +1,5 @@
 ---
-title: "Building Aggregates with a Neighbourhood kernel and a spatial Yardstick (BANKSY)"
+title: "Building Aggregates with a Neighbourhood Kernel and a Spatial Yardstick"
 collection: talks
 type: "Talk"
 permalink: /talks/2024-04-14-sscn-banksy.md
