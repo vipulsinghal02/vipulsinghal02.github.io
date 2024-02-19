@@ -3,8 +3,7 @@ title: "BANKSY unifies cell typing and tissue domain segmentation for scalable s
 collection: publications
 permalink: /publication/2024-banksy-ng
 excerpt: "BANKSY is an algorithm with R and Python implementations that identifies both cell types and tissue domains from spatially-resolved -omics data by incorporating spatial kernels capturing microenvironmental information, applicable to a range of spatially-resolved technologies, and scalable to millions of cells.<br/><img src="/images/banksy_schematic_1.png"
-	width="400" 
-    height="500">"
+	width="300">"
 date: 2022-04-15
 venue: 'biorxiv (accepted, Nature Genetics)'
 code: 'https://prabhakarlab.github.io/Banksy/'
