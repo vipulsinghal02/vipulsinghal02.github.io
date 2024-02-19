@@ -6,6 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+I am a researcher at the Genome Institute of Singapore in Dr Kok Hao Chen's lab, where I work on developing new analysis algorithms for spatial multi omics. 
 <!-- 
 	wehre you work, in whose group. Waht you work on, high level, and what else you do. where you did your phd, and what you did there. and where you did your undergrad. 
  -->

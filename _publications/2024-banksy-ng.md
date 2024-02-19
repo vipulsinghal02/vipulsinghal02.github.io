@@ -18,5 +18,5 @@ Spatial omics data are clustered to define both cell types and tissue domains. W
 
 BANKSY augments cells' transcriptome information with a measure of the transcriptome of their microenvironment. This helps improve both cell type clustering and domain segmentation. See the paper (linked below) for details. 
 
-You can download a preliminary proof copy of the paper [here](/files/41588_2024_1664_Author.pdf), with [Supplementary information](/files/41588_2024_1664_MOESM1_ESM.pdf), and [peer review](/files/41588_2024_1664_MOESM3_ESM.pdf) information. You can also access the Github pages for the [R version](https://prabhakarlab.github.io/Banksy/) and [Python version](https://github.com/prabhakarlab/Banksy_py) of the package, along with [data and scripts](https://zenodo.org/records/10258795) related to the manuscript. 
+<!-- You can download a preliminary proof copy of the paper [here](/files/41588_2024_1664_Author.pdf), with [Supplementary information](/files/41588_2024_1664_MOESM1_ESM.pdf), and [peer review](/files/41588_2024_1664_MOESM3_ESM.pdf) information. You can also access the Github pages for the [R version](https://prabhakarlab.github.io/Banksy/) and [Python version](https://github.com/prabhakarlab/Banksy_py) of the package, along with [data and scripts](https://zenodo.org/records/10258795) related to the manuscript.  -->
 
