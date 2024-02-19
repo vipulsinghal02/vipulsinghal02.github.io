@@ -2,7 +2,7 @@
 title: "Building Aggregates with a Neighbourhood Kernel and a Spatial Yardstick"
 collection: talks
 type: "Talk"
-permalink: /talks/2024-04-14-sscn-banksy.md
+permalink: /talks/2024-04-14-sscn-banksy
 venue: "Singapore Single Cell Network Meeting 2023"
 date: 2023-04-14
 location: "Singapore"

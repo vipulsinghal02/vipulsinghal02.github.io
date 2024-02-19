@@ -2,7 +2,7 @@
 title: "Spatial Clustering using Banksy, HCA Asia 2021"
 collection: talks
 type: "Talk"
-permalink: /talks/2024-04-14-sscn-banksy.md
+permalink: /talks/2024-04-14-sscn-banksy
 venue: "Human Cell Atlas 2021"
 date: 2021-11-16
 location: "Singapore"
