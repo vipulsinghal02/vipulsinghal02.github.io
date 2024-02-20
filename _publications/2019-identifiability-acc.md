@@ -2,12 +2,10 @@
 title: "Transforming Data Across Environments Despite Structural Non-Identifiability"
 collection: publications
 permalink: /publication/2019-identifiability-acc
-excerpt: "In this work, we developed... .<br/><img src='/images/banksy_fig1.png' height='430' width='400'>"
+excerpt: "In this work, we developed... .<br/><img src='/images/acc-dcp.png.png' height='430' width='400'>"
 date: 2022-04-15
-venue: 'biorxiv (accepted, Nature Genetics)'
-code: 'https://prabhakarlab.github.io/Banksy/'
-paperurl: 'https://www.biorxiv.org/content/10.1101/2022.04.14.488259v1.full'
-citation: 'Singhal and Chou et al. (2022). &quot;BANKSY: A Spatial Omics Algorithm that Unifies Cell Type Clustering and Tissue Domain Segmentation.&quot; <i>bioarxiv</i>. 1(1).'
+venue: 'American Control Conference'
+citation: 'V. Singhal and R. M. Murray (2019). &quot;Transforming Data Across Environments Despite Structural Non-Identifiability.&quot; <i>American Control Conference (ACC)</i>, Philadelphia, PA, USA, 2019 ,pp. 5639-5646, doi: 10.23919/ACC.2019.8814953.'
 ---
 
 **Abstract:**
