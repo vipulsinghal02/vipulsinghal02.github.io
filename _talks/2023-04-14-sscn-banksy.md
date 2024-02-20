@@ -8,9 +8,9 @@ date: 2023-04-14
 location: "Singapore"
 ---
 
-<iframe width="420" height="315"
-src="https://youtu.be/MeddQqZRCiM?si=s7JP8rds4XBBDZqE&t=6417">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/MeddQqZRCiM">
 </iframe>
+
 
 [![BANKSY talk](/images/banksy-talk-hca2021.png)](https://youtu.be/MeddQqZRCiM?si=s7JP8rds4XBBDZqE&t=6417 "BANKSY Talk HCA")
 Click the image above to play the video of the talk. 
