@@ -7,7 +7,8 @@ venue: "SSCN (Singapore), HCA Asia"
 date: 2023-04-14
 location: "Singapore"
 ---
-[![BANKSY talk](/images/banksy-talk-hca2021.png)](https://youtu.be/MeddQqZRCiM?si=s7JP8rds4XBBDZqE&t=6416 "BANKSY Talk HCA")
+[![BANKSY talk](/images/banksy-talk-hca2021.png)](https://youtu.be/MeddQqZRCiM?si=s7JP8rds4XBBDZqE&t=6417 "BANKSY Talk HCA")
+Click the image above to play the video of the talk. 
 
 I have presented the BANKSY clustering algorithm at several meetings, including the Singapore Single Cell Network Meeting in 2023, the Advances in Genome Biology and Technology conference in 2022, the [Human Cell Atlas Asia meeting](https://youtu.be/MeddQqZRCiM?si=kqeYI3ugBbbDs6LN&t=6390)  in 2021, and internal GIS seminars. Here is a description of the work, some slides, and link to youtube videos. 
 
