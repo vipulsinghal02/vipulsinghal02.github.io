@@ -3,7 +3,7 @@ title: "Spatial cell typing and domain segmentation with BANKSY"
 collection: talks
 type: "Talk"
 permalink: /talks/2021-11-16-hca-banksy
-venue: "HCA Asia 2021"
+venue: "Human Cell Atlas Asia 2021"
 date: 2021-11-16
 location: "Singapore"
 ---
