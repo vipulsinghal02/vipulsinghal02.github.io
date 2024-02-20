@@ -2,7 +2,7 @@
 title: "Transforming Data Across Environments Despite Structural Non-Identifiability"
 collection: publications
 permalink: /publication/2019-identifiability-acc
-excerpt: "In this work, we developed... .<br/><img src='/images/acc-dcp.png.png' height='430' width='400'>"
+excerpt: "In this work, we developed... .<br/><img src='/images/acc-dcp.png' height='430' width='400'>"
 date: 2022-04-15
 venue: 'American Control Conference'
 citation: 'V. Singhal and R. M. Murray (2019). &quot;Transforming Data Across Environments Despite Structural Non-Identifiability.&quot; <i>American Control Conference (ACC)</i>, Philadelphia, PA, USA, 2019 ,pp. 5639-5646, doi: 10.23919/ACC.2019.8814953.'
