@@ -16,7 +16,9 @@ A slightly more theory-based project involves developing parameter consistency c
 
 I have also developed a MATLAB toolbox for modeling and composing genetic circuits, and for performing parameter inference in these models using MCMC. You can read the paper [here](https://academic.oup.com/synbio/article/6/1/ysab007/6129121). 
 
-### Academic interests
-I am currently interested in developing graph deep learning enabled embedding methods for multi-omics data. In some sense, this would generalize BANKSY to multi-omics, and to capture more complex patterns in the data. I am also interested in developing a description of parameteric uncertainty in models of gene regulatory networks. 
+### Academic interests 
+I am currently interested in developing graph deep learning enabled embedding methods for multi-omics data. In some sense, this would generalize BANKSY to multi-omics, and to capture more complex patterns in the data. 
 
-In the long run, I am broadly interested in working on planning and reasoning using structured world models, especially in a neuroscience inspired way. 
+I am also interested in developing a description of parameteric uncertainty in models of gene regulatory networks using the theory of differentiable manifolds. To do this, I am working through [Boothby's book](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2) on differential geometry, and also [Isidori's book](https://link.springer.com/book/10.1007/978-1-84628-615-5), which develops nonlinear control methods using differential geometry). 
+
+In the long run, I am broadly interested in working on planning and reasoning using structured world models in AI, especially in a neuroscience inspired way, and the applications of such systems to medicine and genomics. 
