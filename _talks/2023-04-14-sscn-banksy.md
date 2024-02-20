@@ -3,10 +3,11 @@ title: "BANKSY: Scalable and Accurate Clustering of Spatial Omics Data"
 collection: talks
 type: "Talk"
 permalink: /talks/2024-04-14-sscn-banksy
-venue: "Singapore Single Cell Network Meeting 2023"
+venue: "SSCN (Singapore), HCA Asia"
 date: 2023-04-14
 location: "Singapore"
 ---
+[![BANKSY talk](/files/banksy-talk-hca2021.png)](https://youtu.be/MeddQqZRCiM?si=s7JP8rds4XBBDZqE&t=6416 "BANKSY Talk HCA")
 
 I have presented the BANKSY clustering algorithm at several meetings, including the Singapore Single Cell Network Meeting in 2023, the Advances in Genome Biology and Technology conference in 2022, the [Human Cell Atlas Asia meeting](https://youtu.be/MeddQqZRCiM?si=kqeYI3ugBbbDs6LN&t=6390)  in 2021, and internal GIS seminars. Here is a description of the work, some slides, and link to youtube videos. 
 
