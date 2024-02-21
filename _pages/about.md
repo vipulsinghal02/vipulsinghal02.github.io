@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational biologist at the Genome Institute of Singapore in Dr [Kok Hao Chen's](https://khchenlab.github.io/) lab, where I work on developing new algorithms for spatial multi-omics data analysis. I did my [PhD](https://thesis.library.caltech.edu/11161/) on system ID for models of gene regulation in Professor [Richard Murray's](https://murray.cds.caltech.edu/Main_Page) lab in the Computation and Neural Systems option at Caltech. I did my undergrad in Electrical Engineering at Imperial. You can find my CV [here](https://vipulsinghal02.github.io/files/vipul_cv.pdf). 
+I am a computational biologist at the Genome Institute of Singapore in Dr [Kok Hao Chen's](https://khchenlab.github.io/) lab, where I work on developing new algorithms for spatial multi-omics data analysis. I did my [PhD](https://thesis.library.caltech.edu/11161/) on system ID for models of gene regulation in Professor [Richard Murray's](https://murray.cds.caltech.edu/Main_Page) lab at Caltech. I did my undergrad in Electrical Engineering at Imperial. You may find my CV [here](https://vipulsinghal02.github.io/files/vipul_cv.pdf). 
 
 ### Recent Projects
 We developed BANKSY, which is a clustering method for spatially arranged multi-omics data. It uses the omics features of cells, along with their relative spatial locations, to construct a graph in a custom embedding space, which is then clustered using community detection algorithms. The paper will appear in Nature Genetics shortly, and in the meantime, you can read the preprint [here](https://www.biorxiv.org/content/10.1101/2022.04.14.488259v1.full), and play with the code [here](https://prabhakarlab.github.io/Banksy/). 
