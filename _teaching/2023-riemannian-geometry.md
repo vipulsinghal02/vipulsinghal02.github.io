@@ -4,7 +4,7 @@ collection: teaching
 type: "Recitation / Tutorials"
 permalink: /teaching/2023-riemannian-geometry
 venue: "Bioinformatics Institute"
-date: 2023 (throughout)
+date: 2023
 location: "Singapore"
 ---
 
