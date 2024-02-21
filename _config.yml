@@ -21,7 +21,7 @@ repository               : "vipulsinghal02/vipulsinghal02.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "VipulSinghal_resized2.jpg"
+  avatar           : "vipul_crystal_mountain.png"
   name             : "Vipul Singhal"
   pronouns         : # example: "she/her"  
   bio              : "I develop methods for understanding biological data. These can range from algorithms for spatial omics to system ID methods for synthetic biology. In my free time, I enjoy snowboarding in the Rockies and the Sierra Nevada mountains."
