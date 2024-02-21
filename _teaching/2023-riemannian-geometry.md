@@ -3,17 +3,17 @@ title: "Riemannian Geometry"
 collection: teaching
 type: "Recitation / Tutorials"
 permalink: /teaching/2023-riemannian-geometry
-venue: "Bioinformatics Institute"
+venue: "Bioinformatics Institute (BII)"
 date: 2023-06-01
 location: "Singapore"
 ---
 
-From Mar - Nov 2023, I helped run the tutorial sessions to supplement the main class schedule of a differential geometry course taught by Dr Hwee Kuan at the Bioinformatics Institute in Singapore. 
+Between February and November 2023, I assisted Dr Hwee Kuan Lee in teaching a course on differential geometry to AI researchers in Singapore's Agency for Science Technology and Research.  
 
 We covered the following topics over a period of about 8 months:
 * Vectors, one forms/covectors, 
-* covariant and contravariant tensors, Christoffel symbols, the metric tensor
-* Manifolds, charts, tangent plane/bundle, vector fields
+* Covariant and contravariant tensors, Christoffel symbols, the metric tensor
+* Differentiable manifolds, charts, tangent plane/bundle, vector fields
 * The covariant derivative, parallel transport, and the geodesic
 * Pushforwards and pullbacks of vectors, one forms and tensors
 * Flow, Lie derivative, Lie bracket
