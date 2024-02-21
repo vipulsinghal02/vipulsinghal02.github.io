@@ -2,7 +2,7 @@
 title: "A MATLAB toolbox for modeling genetic circuits in cell-free systems"
 collection: publications
 permalink: /publication/2021-txtlsim-oupsb
-excerpt: "Txtlsim is a toolbox for simulating cell free reactions using mass action kinetics I this paper, we show how models of subsystems of a circuit can be individually characterized, and composed into the full system, whose behavior can be accurately predicted.<br/><img src='/images/‎txtlsim_summary.png' height='430' width='400'>"
+excerpt: "Txtlsim is a toolbox for simulating cell free reactions using mass action kinetics I this paper, we show how models of subsystems of a circuit can be individually characterized, and composed into the full system, whose behavior can be accurately predicted.<br/><img src='/images/‎txtlsim_summary.png' height='690' width='600'>"
 date: 2021-02-05
 venue: 'OUP Synthetic Biology'
 code: 'https://github.com/vipulsinghal02/txtlsim_buildacell'
