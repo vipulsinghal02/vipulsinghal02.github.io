@@ -10,8 +10,8 @@ paperurl: 'https://www.biorxiv.org/content/10.1101/2022.04.14.488259v1.full'
 citation: 'Singhal and Chou et al. (2022). &quot;BANKSY: A Spatial Omics Algorithm that Unifies Cell Type Clustering and Tissue Domain Segmentation.&quot; <i>bioarxiv</i>. 1(1).'
 ---
 
-**Abstract:**
 
+### Abstract:
 Spatial omics data are clustered to define both cell types and tissue domains. We present Building Aggregates with a Neighborhood Kernel and Spatial Yardstick (BANKSY), an algorithm that unifies these two spatial clustering problems by embedding cells in a product space of their own and the local neighborhood transcriptome, representing cell state and microenvironment, respectively. BANKSY’s spatial feature augmentation strategy improved performance on both tasks when tested on diverse RNA (imaging, sequencing) and protein (imaging) datasets. BANKSY revealed unexpected niche-dependent cell states in the mouse brain and outperformed competing methods on domain segmentation and cell typing benchmarks. BANKSY can also be used for quality control of spatial transcriptomics data and for spatially aware batch effect correction. Importantly, it is substantially faster and more scalable than existing methods, enabling the processing of millions of cell datasets. In summary, BANKSY provides an accurate, biologically motivated, scalable and versatile framework for analyzing spatially resolved omics data.
 
 ![](/images/banksy_fig1.png)
