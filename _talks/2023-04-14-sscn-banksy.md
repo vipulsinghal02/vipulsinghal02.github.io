@@ -12,5 +12,5 @@ Identification of cell-types in tissue is an important task in spatial omics, an
 
 You can find the talk slides [here](/files/BANKSY_SSCN_2023_v2_ppt.pptx). 
 
-If you prefer, you can also watch Shyam Prabhakar talk about this work at the Simons Institute [seminar](https://www.youtube.com/watch?v=-6kP9RsReRM).
+If you prefer, you can also watch Shyam Prabhakar talk about this work at the Simons Institute [seminar](https://www.youtube.com/watch?v=-6kP9RsReRM), or a shorter version at the STOC workshop [here](https://youtu.be/qDNLcoIvqQc?si=QflX4fFJD0YeoD_B). 
 
