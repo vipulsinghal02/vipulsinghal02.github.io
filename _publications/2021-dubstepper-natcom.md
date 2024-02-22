@@ -2,7 +2,7 @@
 title: "DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data"
 collection: publications
 permalink: /publication/2021-dubstepper-natcom
-excerpt: "DUBStepR is a feature selection method that relies on the intuition of finding the most informative features given the set of features already identified. <br/><img src='/images/‎dubsteppr_fig1.png' height='477' width='500'>"
+excerpt: "DUBStepR is a feature selection method that relies on the intuition of finding the most informative features given the set of features already identified."
 date: 2021-10-06
 venue: 'Nature Communications'
 code: 'https://github.com/prabhakarlab/DUBStepR'
