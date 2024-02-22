@@ -1,8 +1,8 @@
 ---
 title: "Recursively constructing analytic expressions for equilibrium distributions of stochastic biochemical reaction networksJ. R. Soc. Interface.142017015720170157"
 collection: publications
-permalink: /publication/2024-banksy-ng
-excerpt: "Text.<br/><img src='/images/gluing_fig345.png' height='402' width='495'>"
+permalink: /publication/2017-gluing-rsi
+excerpt: "Text...<br/><img src='/images/gluing_fig345.png' height='402' width='495'>"
 date: 2017-05-31
 venue: 'J. Royal Soc. Interface'
 code: 'https://prabhakarlab.github.io/Banksy/'
