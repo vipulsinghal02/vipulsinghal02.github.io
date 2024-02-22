@@ -3,7 +3,7 @@ title: "Transforming Data Across Environments Despite Structural Non-Identifiabi
 collection: publications
 permalink: /publication/2019-identifiability-acc
 excerpt: "We present a framework for batch correcting genetic circuit data across environments, and show that parameter structural non-identifiability need not hinder this goal. We give *parameter consistency* conditions under which we can perform such correction despite the parameters not being identifiable.<br/><img src='/images/acc-dcp.png' height='430' width='400'>"
-date: 2021-04-15
+date: 2019-07-12
 venue: 'American Control Conference'
 citation: 'V. Singhal and R. M. Murray (2019). &quot;Transforming Data Across Environments Despite Structural Non-Identifiability.&quot; <i>American Control Conference (ACC)</i>, Philadelphia, PA, USA, 2019 ,pp. 5639-5646, doi: 10.23919/ACC.2019.8814953.'
 ---
