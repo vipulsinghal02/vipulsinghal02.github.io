@@ -16,7 +16,7 @@ A slightly more theory-based project involves developing parameter consistency c
 
 I have also worked on a MATLAB toolbox for modeling and composing genetic circuits, and for performing consensus  parameter inference (multiple datasets / models informing a shared set of parameters) using MCMC. You can read the paper [here](https://academic.oup.com/synbio/article/6/1/ysab007/6129121). 
 
-### Academic interests 
+### Research interests 
 I am currently interested in developing graph deep learning enabled embedding methods for multi-omics data. In some sense, this would generalize BANKSY to multi-omics, and enable the capture of complex patterns in the data. 
 
 I am also interested in developing a description of parameteric uncertainty in models of gene regulatory networks using ideas from differential geometry and nonlinear control. I suspect this will enable better composition of subsystems into larger systems, in a way that is robust to parametric uncertainty. To do this, I am working through [Boothby's book](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2) on differential geometry, and also [Isidori's book](https://link.springer.com/book/10.1007/978-1-84628-615-5), which develops relevant ideas like nonlinear observability. If you are interested in this sort of thing, please feel free to reach out to me via email (on the left). 
