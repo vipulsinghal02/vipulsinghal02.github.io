@@ -3,11 +3,11 @@ title: "BANKSY unifies cell typing and tissue domain segmentation for scalable s
 collection: publications
 permalink: /publication/2024-banksy-ng
 excerpt: "BANKSY is an algorithm with R and Python implementations that identifies both cell types and tissue domains from spatially-resolved -omics data by incorporating spatial kernels capturing microenvironmental information, applicable to a range of spatially-resolved technologies, and scalable to millions of cells.<br/><img src='/images/banksy_fig1.png' height='628' width='495'>"
-date: 2022-04-15
-venue: 'biorxiv (to appear, Nature Genetics)'
+date: 2024-02-27
+venue: 'Nature Genetics'
 code: 'https://prabhakarlab.github.io/Banksy/'
-paperurl: 'https://www.biorxiv.org/content/10.1101/2022.04.14.488259v1.full'
-citation: 'Singhal and Chou et al. (2022). &quot;BANKSY: A Spatial Omics Algorithm that Unifies Cell Type Clustering and Tissue Domain Segmentation.&quot; <i>bioarxiv</i>. 1(1).'
+paperurl: 'https://www.nature.com/articles/s41588-024-01664-3'
+citation: 'Singhal, V., Chou, N., Lee, J. et al. (2024). &quot;BANKSY unifies cell typing and tissue domain segmentation for scalable spatial omics data analysis.&quot; <i>Nat Genet</i>.'
 ---
 
 Spatial omics data involve measurements of both the molecular profiles (such as RNA or protein counts) and the spatial locations of cells. This allows us to measure the arrangement of individual cell types in stereotypical spatial patterns, which is a fundamental property of solid tissues. 
