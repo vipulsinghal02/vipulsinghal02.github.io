@@ -12,18 +12,45 @@ citation: 'Singhal, V., Chou, N., Lee, J. et al. (2024). &quot;BANKSY unifies ce
 
 Spatial omics data involve measurements of both the molecular profiles (such as RNA or protein counts) and the spatial locations of cells. This allows us to measure the arrangement of individual cell types in stereotypical spatial patterns, which is a fundamental property of solid tissues. 
 
-The data resulting from these technologoes are clustered to define both cell types and tissue domains. We present BANKSY, an algorithm that unifies these two spatial clustering problems by embedding cells in a product space of their own and the local neighborhood transcriptome, representing cell state and microenvironment, respectively. 
+The data resulting from these technologoes are clustered to define both cell types and tissue domains. BANKSY is an algorithm that unifies these two spatial clustering problems by utilizing a biologically motivated feature augmentation strategy. Cells are embedded in a product space of their own and the local neighborhood transcriptome, representing cell state and microenvironment respectively.
 
-BANKSY’s spatial feature augmentation strategy improves performance on both tasks, and has been tested on diverse RNA and protein datasets. In particular, BANKSY revealed unexpected niche-dependent cell states in the mouse brain, and outperformed competing methods on domain segmentation and cell typing benchmarks. BANKSY can also be used for quality control of spatial transcriptomics data and for spatially aware batch effect correction. 
-
-Importantly, it is substantially faster and more scalable than existing methods, enabling the processing of million-cell datasets. 
-
-All in all, BANKSY provides an accurate, biologically motivated, scalable and versatile framework for analyzing spatially resolved omics data. The image below gives a high level overview of the feature augmentation strategy taken by BANKSY. 
+The neighbourhood is encoded using the local mean transcriptome, and local neighbourhood gradients computed using the azimuthal Gabor filter (AGF), weighted by a mixing parameter, lambda. The AGF is like the traditional plane wave Gabor filter used to quantify texture in image processing, but computed in the azumuthal (polar) coordinates around each cell, and modulated with a Gaussian waveform.
 
 ![](/images/banksy_fig1.png)
 
-BANKSY augments cells' transcriptome information with a measure of the transcriptome of their microenvironment. This helps improve both cell type clustering and domain segmentation. 
+Cell typing I: When reference data is not available, BANKSY can provide an accurate unsupervised alternative to reference-based deconvolution methods like RCTD for labeling Slide-seq data, which tends to have measurement noise due to contamination between adjacent spots: 
 
+![](/images/banksy-image4.png)
 
-<!-- You can download a preliminary proof copy of the paper [here](/files/41588_2024_1664_Author.pdf), with [Supplementary information](/files/41588_2024_1664_MOESM1_ESM.pdf), and [peer review](/files/41588_2024_1664_MOESM3_ESM.pdf) information. You can also access the Github pages for the [R version](https://prabhakarlab.github.io/Banksy/) and [Python version](https://github.com/prabhakarlab/Banksy_py) of the package, along with [data and scripts](https://zenodo.org/records/10258795) related to the manuscript.  -->
+The idea behind this ‘denoising’ effect is that lifting cells to BANKSY’s higher-dimensional neighour-augmented space can be used to disambiguate cell identities. This is because similar cells tend to have similar microenvironments, and so the separation along the neighborhood axis helps separate the cells better:
 
+![](/images/banksy-image10.png)
+
+Cell typing II: BANKSY can also be used to identify niche dependent cell subtypes. Cell types residing in distinct microenvironments can can have subtly distinct transcriptomes. BANKSY stratified mature oligodendrocytes in mouse hypothalamus MERFISH data into white matter (anterior commissure) and grey matter (general hypothalamic area) subpopulations, which were corroborated in matching scRNA-seq data (panel e)
+
+![](/images/banksy-image5.png)
+
+Cell typing III: In a MERSCOPE neoplastic human colon tumor dataset, BANKSY resolved intermingled mesenchymal and immune cell types, and identified cycling epithelial cells that could not be identified using nonspatial clustering (blue cells in h).
+
+![](/images/banksy-inage12.png)
+
+Domain Segmentation: Performs domain segmentation when neighbourhood expression is upweighted: on the CODEX spatial proteomics data of human intestine, it identifies a CD66+ mature epithelial community and an α-smooth muscle actin-expressing community not found by non-spatial clustering, verified by marker expression:
+
+![](/images/banksy-inage6.png)
+
+Importantly, it is substantially faster and more scalable than existing methods, enabling the processing of million-cell datasets. 
+
+![](/images/banksy-inage9.png)
+
+Generality: can even be used for spatial batch correction, and outperforms other methods, including another method’s batch correction strategy https://bit.ly/48w9dX2 
+
+![](/images/banksy-inage8.png)
+
+Robustness: works at default param settings across diverse data types. Also: robust to random number seed. 
+![](/images/banksy-inage1.png)
+
+Salas et al. (https://bit.ly/4bRYfxR) and Ren et al. (https://bit.ly/3wDsubK) independently benchmarked and recommended BANKSY, and Shamir et al. (https://bit.ly/3wuRjH5) showed it works even on brain MRI data. 
+
+![](/images/banksy-image2.png)
+
+All in all, BANKSY provides an accurate, biologically motivated, scalable and versatile framework for analyzing spatially resolved omics data. The image below gives a high level overview of the feature augmentation strategy taken by BANKSY. 
