@@ -14,7 +14,7 @@ Spatial omics data involve measurements of both the molecular profiles (such as 
 
 The data resulting from these technologoes are clustered to define both cell types and tissue domains. BANKSY is an algorithm that unifies these two spatial clustering problems by utilizing a biologically motivated feature augmentation strategy. Cells are embedded in a product space of their own and the local neighborhood transcriptome, representing cell state and microenvironment respectively.
 
-The neighbourhood is encoded using the local mean transcriptome, and local neighbourhood gradients computed using the azimuthal Gabor filter (AGF), weighted by a mixing parameter, lambda. The AGF is like the traditional plane wave Gabor filter used to quantify texture in image processing, but computed in the azumuthal (polar) coordinates around each cell, and modulated with a Gaussian waveform.
+The neighbourhood is encoded using the local mean transcriptome, and local neighbourhood gradients computed using the azimuthal Gabor filter (AGF), weighted by a mixing parameter, lambda. The AGF is like the traditional plane wave Gabor filter used to quantify texture in image processing, but computed in the azumuthal (polar) coordinates around each cell, and modulated with a Gaussian waveform. You can read a summary article contextualizing things [here](/files/banksy-news.pdf). 
 
 ![](/images/banksy_fig1.png)
 
