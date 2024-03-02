@@ -49,7 +49,7 @@ Generality: can even be used for spatial batch correction, and outperforms other
 Robustness: works at default param settings across diverse data types. Also: robust to random number seed. 
 ![](/images/banksy-inage1.png)
 
-Salas et al. (https://bit.ly/4bRYfxR) and Ren et al. (https://bit.ly/3wDsubK) independently benchmarked and recommended BANKSY, and Shamir et al. (https://bit.ly/3wuRjH5) showed it works even on brain MRI data. 
+[Salas et al.](https://www.biorxiv.org/content/10.1101/2023.02.13.528102v1) and [Ren et al.](https://www.nature.com/articles/s41467-023-36707-6) independently benchmarked and recommended BANKSY, and [Shamir et al.](https://link.springer.com/article/10.1007/s00429-023-02748-2) showed it works even on brain MRI data. 
 
 ![](/images/banksy-image2.png)
 
