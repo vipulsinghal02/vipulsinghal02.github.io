@@ -32,19 +32,19 @@ Cell typing II: BANKSY can also be used to identify niche dependent cell subtype
 
 Cell typing III: In a MERSCOPE neoplastic human colon tumor dataset, BANKSY resolved intermingled mesenchymal and immune cell types, and identified cycling epithelial cells that could not be identified using nonspatial clustering (blue cells in h).
 
-![](/images/banksy-inage12.png)
+![](/images/banksy-image12.png)
 
 Domain Segmentation: Performs domain segmentation when neighbourhood expression is upweighted: on the CODEX spatial proteomics data of human intestine, it identifies a CD66+ mature epithelial community and an α-smooth muscle actin-expressing community not found by non-spatial clustering, verified by marker expression:
 
-![](/images/banksy-inage6.png)
+![](/images/banksy-image6.png)
 
 Importantly, it is substantially faster and more scalable than existing methods, enabling the processing of million-cell datasets. 
 
-![](/images/banksy-inage9.png)
+![](/images/banksy-image9.png)
 
 Generality: can even be used for spatial batch correction, and outperforms other methods, including another method’s batch correction strategy https://bit.ly/48w9dX2 
 
-![](/images/banksy-inage8.png)
+![](/images/banksy-image8.png)
 
 Robustness: works at default param settings across diverse data types. Also: robust to random number seed. 
 ![](/images/banksy-inage1.png)
