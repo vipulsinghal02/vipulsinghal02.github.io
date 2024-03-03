@@ -9,6 +9,13 @@ redirect_from:
 
 I am a computational biologist at the Genome Institute of Singapore. I have been working on developing new algorithms for spatial multi-omics data analysis. I studied electrical engineering at Imperial for my undergrad.  During my [PhD](https://thesis.library.caltech.edu/11161/) studies at Caltech, my main focus was on Bayesian parameter inference for models of gene regulation.
 
+### Recent Projects
+We developed BANKSY, which is a clustering method for spatially arranged multi-omics data. It uses the omics features of cells, along with their relative spatial locations, to construct a graph in a custom embedding space, which is then clustered using community detection algorithms. The paper was [published online](https://www.nature.com/articles/s41588-024-01664-3) recently, and you may find the [code](https://prabhakarlab.github.io/Banksy/) and [twitter thread](https://x.com/shyam_lab/status/1762648072360792479?s=20) helpful, along with a high level overview [here](/files/banksy-news.pdf). 
+
+A project that merges ideas from synthetic and systems biology involves developing parameter consistency conditions for composing dynamical models of systems. The application we have demonstrated it on is the reduction of batch variability in cell-free systems, which are used as prototyping platforms for genetic circuits. More generally, it should be possible prove analogous results for *system composability*, and will be a future direction of research (see below). You can find a current version of the manuscript [here](/files/Calibration_2024.pdf). 
+
+I have also worked on a MATLAB toolbox for modeling and composing genetic circuits, and for performing consensus  parameter inference (multiple datasets / models informing a shared set of parameters) using MCMC. You can read the paper [here](https://academic.oup.com/synbio/article/6/1/ysab007/6129121). 
+
 ### Research interests 
 I am currently interested in developing graph deep learning enabled embedding methods for multi-omics data. In some sense, this would generalize BANKSY to multi-omics, and enable the capture of complex patterns in the data. 
 
@@ -16,10 +23,3 @@ I am also interested in developing a description of parameteric uncertainty in m
 
 In the long run, I am broadly interested in developing and building new machine learning paradigms for analyzing data in genomics and medicine. The next set of breakthroughs in AI will come from a better understanding of how planning and reasoning can be achieved in a robust and tractable manner, and how such reasoning abilities could leverage internal representations of the environment. Tools with such capabilities could have profound implications for genomics and healthcare, by modeling the complex structure of the data and literature, and performing chains of reasoning on it. 
 
-
-### Recent Projects
-We developed BANKSY, which is a clustering method for spatially arranged multi-omics data. It uses the omics features of cells, along with their relative spatial locations, to construct a graph in a custom embedding space, which is then clustered using community detection algorithms. The paper was [published online](https://www.nature.com/articles/s41588-024-01664-3) recently, and you may find the [code](https://prabhakarlab.github.io/Banksy/) and [twitter thread](https://x.com/shyam_lab/status/1762648072360792479?s=20) helpful, along with a high level overview [here](/files/banksy-news.pdf). 
-
-A project that merges ideas from synthetic and systems biology involves developing parameter consistency conditions for composing dynamical models of systems. The application we have demonstrated it on is the reduction of batch variability in cell-free systems, which are used as prototyping platforms for genetic circuits. More generally, it should be possible prove analogous results for *system composability*, and will be a future direction of research (see below). You can find a current version of the manuscript [here](/files/Calibration_2024.pdf). 
-
-I have also worked on a MATLAB toolbox for modeling and composing genetic circuits, and for performing consensus  parameter inference (multiple datasets / models informing a shared set of parameters) using MCMC. You can read the paper [here](https://academic.oup.com/synbio/article/6/1/ysab007/6129121). 
