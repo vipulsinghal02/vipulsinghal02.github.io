@@ -17,7 +17,7 @@ The data resulting from these technologoes can be clustered to define both cell 
 The neighbourhood is encoded using the local mean transcriptome, and local neighbourhood gradients computed using the azimuthal Gabor filter (AGF), weighted by a mixing parameter, lambda. The AGF is like the traditional plane wave Gabor filter used to quantify texture in image processing, but computed in the azumuthal (polar) coordinates around each cell, and modulated with a Gaussian waveform. You can read a summary article contextualizing things [here](/files/banksy-news.pdf). 
 
 ![](/images/banksy_fig1.png)
-
+<!-- 
 Cell typing I: When reference data is not available, BANKSY can provide an accurate unsupervised alternative to reference-based deconvolution methods like RCTD for labeling Slide-seq data, which tends to have measurement noise due to contamination between adjacent spots: 
 
 ![](/images/banksy-image4.png)
@@ -53,4 +53,4 @@ Robustness: works at default param settings across diverse data types. Also: rob
 
 ![](/images/banksy-image2.png)
 
-All in all, BANKSY provides an accurate, biologically motivated, scalable and versatile framework for analyzing spatially resolved omics data. The image below gives a high level overview of the feature augmentation strategy taken by BANKSY. 
+All in all, BANKSY provides an accurate, biologically motivated, scalable and versatile framework for analyzing spatially resolved omics data. The image below gives a high level overview of the feature augmentation strategy taken by BANKSY.  -->
